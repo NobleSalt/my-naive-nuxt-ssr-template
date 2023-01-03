@@ -38,6 +38,6 @@ const cb4 = () => {
   loadingBar.start()
   setTimeout(() => {
     loadingBar.finish()
-  }, 1000)
+  }, [1000])
 }
 </script>
